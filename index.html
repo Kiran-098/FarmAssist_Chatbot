@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farming Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='chatbot.css') }}">
+</head>
+<body>
+    <div id="chatbot-page">
+        <div id="chatbox"></div>
+        <input type="text" id="user-input" placeholder="Ask a farming question...">
+        <button id="send-button">Send</button>
+
+        <!-- Weather Application -->
+        <div id="weather-app">
+            <input type="text" id="city" placeholder="Enter city for weather">
+            <button id="getWeather">Get Weather</button>
+            <div id="weather-info">
+                <p id="temp"></p>
+                <p id="humid"></p>
+                <p id="cloud"></p>
+                <p id="wind"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='chatbot.js') }}"></script>
+</body>
+</html>

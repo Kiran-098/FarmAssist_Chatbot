@@ -1,0 +1,58 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Chatbot container */
+#chatbot-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Chatbox */
+#chatbox {
+    width: 400px;
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* User input and send button */
+#user-input {
+    width: 300px;
+    padding: 10px;
+}
+
+#send-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Weather application */
+#weather-app {
+    margin-top: 20px;
+}
+
+#city {
+    width: 200px;
+    padding: 10px;
+}
+
+#getWeather {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#weather-info {
+    margin-top: 10px;
+}
