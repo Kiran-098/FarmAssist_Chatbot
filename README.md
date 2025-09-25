@@ -34,6 +34,20 @@ Search in MongoDB using keywords + similarity matching.
 If no relevant answer is found, query Cohere API.
 Save new queries + answers to the database for future use.
 
+farmassist/
+│── app.py              # Flask application
+│── static/
+│   └── style.css       # Frontend styling
+│── templates/
+│   └── index.html      # Chatbot UI
+│── data/
+│   └── crops.json      #  Dataset sourced from Kisan Call Center (KCC)
+│── requirements.txt    # Python dependencies
+│── README.md           # Project documentation
+
+Dataset Source
+The dataset used in this project is adapted from the Kisan Call Center (KCC) resources. It has been structured into JSON format for use with MongoDB.
+
 
 License
 This project is developed for educational purposes as part of a college project.
