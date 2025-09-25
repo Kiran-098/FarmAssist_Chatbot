@@ -15,7 +15,7 @@ db = client['farming_db']
 collection = db['queries']
 
 
-cohere_api_key = '0uMtdMXPqDjrH4VGMgxFRXyJ1yX9frhD4YmNA1vV'
+cohere_api_key = 'API key'
 co = cohere.Client(cohere_api_key)
 
 vectorizer = TfidfVectorizer()
@@ -213,3 +213,4 @@ if __name__ == '__main__':
     # Precompute the TF-IDF matrix before starting the app
     precompute_tfidf_matrix()
     app.run(debug=True)
+
